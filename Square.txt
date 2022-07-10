@@ -10,3 +10,14 @@ int square(int y)
     }
     return ans; 
 }
+int main()
+{
+cout « "Enter x: ";
+int x;
+cin » x;
+int z=square(x);
+cout « z « endl;
+system("pause");
+return 0;
+
+}
